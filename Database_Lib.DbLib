@@ -5,7 +5,7 @@ ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Data Source=alti
 AddMode=2
 RemoveMode=2
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=`
 RightQuote=`
 QuoteTableNames=1
@@ -26,6 +26,9 @@ TableName=component
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Library Path0=253|Library Ref0=77|Footprint Path0=239|Footprint Ref0=92|Value00=58|Value10=58|Value20=58|Value30=58
 [FieldMap1]
 Options=FieldName=component.Part Number|TableNameOnly=component|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
