@@ -38,57 +38,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=symbols\Passive Components\Capacitor.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
-DocumentPath=symbols\Passive Components\ElCapacitor.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document3]
-DocumentPath=symbols\Passive Components\Resistor.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document4]
 DocumentPath=footprints\Capacitors\C0201(0603)x0.3.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +54,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QWKBWTSJ
 
-[Document5]
+[Document2]
 DocumentPath=footprints\Capacitors\C0402(1005)x0.5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PQSHFTAB
 
-[Document6]
+[Document3]
 DocumentPath=footprints\Capacitors\C0603(1608)x0.8.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EBHFCDTA
 
-[Document7]
+[Document4]
 DocumentPath=footprints\Capacitors\C0805(2012)x0.8.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UBUSQYJK
 
-[Document8]
+[Document5]
 DocumentPath=footprints\Capacitors\C0805(2012)x0.65.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OASIUHPC
 
-[Document9]
+[Document6]
 DocumentPath=footprints\Capacitors\C0805(2012)x1.25.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HFWJYBDB
 
-[Document10]
+[Document7]
 DocumentPath=footprints\Capacitors\C0805(2012)x0.85.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GCFUOIPR
 
-[Document11]
+[Document8]
 DocumentPath=footprints\Capacitors\C1206(3216)x0.85.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DLPKTHXG
 
-[Document12]
+[Document9]
 DocumentPath=footprints\Capacitors\C1206(3216)x1.6.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BBWNBQAK
 
-[Document13]
+[Document10]
 DocumentPath=footprints\Capacitors\C1206(3216)x1.25.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VVVGAWHK
 
-[Document14]
+[Document11]
 DocumentPath=footprints\Capacitors\C1210(3225)x1.6.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XMSQTTMB
 
-[Document15]
+[Document12]
 DocumentPath=footprints\Capacitors\C1210(3225)x1.25.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DFHPGHBL
 
-[Document16]
+[Document13]
 DocumentPath=footprints\Capacitors\C1210(3225)x2.5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UWGVNOCF
 
-[Document17]
+[Document14]
 DocumentPath=footprints\Capacitors\C1210(3225)x2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JDTFJQSV
 
-[Document18]
+[Document15]
 DocumentPath=footprints\Capacitors\C1808(4520)x2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -343,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HVGBDTQR
 
-[Document19]
+[Document16]
 DocumentPath=footprints\Capacitors\C1812(4532)x1.6.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -360,7 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FOVRVDGS
 
-[Document20]
+[Document17]
 DocumentPath=footprints\Capacitors\C1812(4532)x1.25.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -377,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CLDTTWXK
 
-[Document21]
+[Document18]
 DocumentPath=footprints\Capacitors\C1812(4532)x2.5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -394,7 +343,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IIHEDGNW
 
-[Document22]
+[Document19]
 DocumentPath=footprints\Capacitors\C1812(4532)x2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -411,7 +360,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FIBXWNQK
 
-[Document23]
+[Document20]
 DocumentPath=footprints\Capacitors\C1825(4564)x1.27.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -428,7 +377,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EJHWVRBM
 
-[Document24]
+[Document21]
 DocumentPath=footprints\Capacitors\C1825(4564)x2.29.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -445,7 +394,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JSSGIVKM
 
-[Document25]
+[Document22]
 DocumentPath=footprints\Capacitors\C1825(4564)x2.54.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -462,7 +411,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VYSTJQQS
 
-[Document26]
+[Document23]
 DocumentPath=footprints\Capacitors\C2220(5750)x1.6.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -479,7 +428,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MYIAUKTR
 
-[Document27]
+[Document24]
 DocumentPath=footprints\Capacitors\C2220(5750)x2.5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -496,7 +445,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GVXEGANO
 
-[Document28]
+[Document25]
 DocumentPath=footprints\Capacitors\C2220(5750)x2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -512,6 +461,57 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DJOVLRCE
+
+[Document26]
+DocumentPath=symbols\Capacitor.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document27]
+DocumentPath=symbols\ElCapacitor.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document28]
+DocumentPath=symbols\Resistor.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [OutputGroup1]
 Name=Netlist Outputs
