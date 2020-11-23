@@ -1,0 +1,41 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Data Source=altium_db_lib;Initial Catalog=altium_lib;Option-2;
+AddMode=2
+RemoveMode=2
+UpdateMode=2
+ViewMode=1
+LeftQuote=`
+RightQuote=`
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(45)
+LibraryDatabaseType=Microsoft Access
+LibraryDatabasePath=
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=ALTIUM
+LastFocusedTable=component
+[Table1]
+SchemaName=
+TableName=component
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Library Path0=253|Library Ref0=77|Footprint Path0=239|Footprint Ref0=92|Value00=58|Value10=58|Value20=58|Value30=58
+[FieldMap1]
+Options=FieldName=component.Part Number|TableNameOnly=component|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=component.Library Path|TableNameOnly=component|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=component.Library Ref|TableNameOnly=component|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=component.Footprint Path|TableNameOnly=component|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=component.Footprint Ref|TableNameOnly=component|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
