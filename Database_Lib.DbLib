@@ -1,11 +1,11 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Data Source=altium_db_lib;Initial Catalog=altium_lib;Option-2;
+ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Data Source=altium_db;Initial Catalog=comp
 AddMode=2
 RemoveMode=2
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=`
 RightQuote=`
 QuoteTableNames=1
@@ -19,217 +19,500 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=ALTIUM
-LastFocusedTable=cables and wire
+LastFocusedTable=altium
 [Table1]
 SchemaName=
-TableName=cables and wire
+TableName=altcomps
 Enabled=False
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=100|Description0=100|Library Path0=100|Library Ref0=100|Footprint Path0=100|Footprint Ref0=100|Manufacturer0=100|Supplier0=100|Supplier Part Number0=100|Value00=100|Value10=100|Value20=100|Value30=100|Type0=100|Technology0=100|Package0=100|Mount Type0=100|Datasheet link0=100
+BrowserOrder_Visible=ID0=34|BaseComp0=76|AltComp0=67|Product0=63|PosID0=52|AllQty0=53|Priority0=59
 [Table2]
 SchemaName=
-TableName=circuit protection
-Enabled=False
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=100|Description0=100|Library Path0=100|Library Ref0=100|Footprint Path0=100|Footprint Ref0=100|Manufacturer0=100|Supplier0=100|Supplier Part Number0=100|Value00=100|Value10=100|Value20=100|Value30=100|Type0=100|Technology0=100|Package0=100|Mount Type0=100|Datasheet link0=100
-[Table3]
-SchemaName=
-TableName=connectors
-Enabled=False
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Description0=82|Library Path0=83|Library Ref0=77|Footprint Path0=98|Footprint Ref0=92|Manufacturer0=93|Supplier0=66|Supplier Part Number0=133|Value00=58|Value10=58|Value20=58|Value30=58|Type0=47|Technology0=83|Package0=65|Mount Type0=85|Datasheet link0=97
-[Table4]
-SchemaName=
-TableName=discrete semiconductors
-Enabled=False
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=100|Description0=100|Library Path0=100|Library Ref0=100|Footprint Path0=100|Footprint Ref0=100|Manufacturer0=100|Supplier0=100|Supplier Part Number0=100|Value00=100|Value10=100|Value20=100|Value30=100|Type0=100|Technology0=100|Package0=100|Mount Type0=100|Datasheet link0=100
-[Table5]
-SchemaName=
-TableName=electromechanical
-Enabled=False
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Description0=82|Library Path0=83|Library Ref0=77|Footprint Path0=98|Footprint Ref0=92|Manufacturer0=93|Supplier0=66|Supplier Part Number0=133|Value00=58|Value10=58|Value20=58|Value30=58|Type0=47|Technology0=83|Package0=65|Mount Type0=85|Datasheet link0=97
-[Table6]
-SchemaName=
-TableName=integrated circuits (ics)
-Enabled=False
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=100|Description0=100|Library Path0=100|Library Ref0=100|Footprint Path0=100|Footprint Ref0=100|Manufacturer0=100|Supplier0=100|Supplier Part Number0=100|Value00=100|Value10=100|Value20=100|Value30=100|Type0=100|Technology0=100|Package0=100|Mount Type0=100|Datasheet link0=100
-[Table7]
-SchemaName=
-TableName=optoelectronics
-Enabled=False
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Description0=82|Library Path0=83|Library Ref0=77|Footprint Path0=98|Footprint Ref0=92|Manufacturer0=93|Supplier0=66|Supplier Part Number0=133|Value00=58|Value10=58|Value20=58|Value30=58|Type0=47|Technology0=83|Package0=65|Mount Type0=85|Datasheet link0=97
-[Table8]
-SchemaName=
-TableName=passive components
+TableName=altium
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=100|Description0=100|Library Path0=100|Library Ref0=100|Footprint Path0=100|Footprint Ref0=100|Manufacturer0=100|Supplier0=100|Supplier Part Number0=100|Value00=100|Value10=100|Value20=100|Value30=100|Type0=100|Technology0=100|Package0=100|Mount Type0=100|Datasheet link0=100
-[Table9]
+BrowserOrder_Grouping=Parent0=True|PartType0=True
+BrowserOrder_Visible=PartNumber0=137|Description0=561|Manufacturer0=93|DataSheet0=885|Supplier0=66|OrderCode0=110|InStock0=61|Value0=52|Property10=72|Property20=72|Property30=72|Property40=72|LibraryRef0=74|LibraryPath0=253|FootPrintRef0=95|FootPrintPath0=296
+[Table3]
 SchemaName=
-TableName=power products
+TableName=batch
 Enabled=False
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=100|Description0=100|Library Path0=100|Library Ref0=100|Footprint Path0=100|Footprint Ref0=100|Manufacturer0=100|Supplier0=100|Supplier Part Number0=100|Value00=100|Value10=100|Value20=100|Value30=100|Type0=100|Technology0=100|Package0=100|Mount Type0=100|Datasheet link0=100
+BrowserOrder_Visible=ID0=34|Data0=47|Num0=47|ProductID0=74|Qty0=40|Note0=48|CustomerID0=83|State0=49|DateP0=53|Priority0=59
+[Table4]
+SchemaName=
+TableName=body
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Name0=95|Description0=171|Pins0=44|SMT0=45|Photo0=54|FootPrintPath0=296|FootPrintRef0=95|FootPrintRef20=94
+[Table5]
+SchemaName=
+TableName=comment
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|CompID0=64|UserID0=57|Note0=48
+[Table6]
+SchemaName=
+TableName=complect
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Product0=63|Component0=84|Position0=65|Num0=47|Note0=48|Block0=50|PositionEx0=76|RowSN0=60
+[Table7]
+SchemaName=
+TableName=component
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Group0=56|Name0=275|Body0=48|Manufact0=72|Store0=50|Description0=561|PriceMethod0=88|PriceValue0=76|Photo0=54|PartNumber0=131|Code0=103|MinQty0=60|Multiple0=66|UnitID0=56|DataSheet0=885|StatusID0=66|SymbolID0=71|DT0=107|UserID0=57|SParID0=56|Val00=45|Val10=45|Val20=45|Val30=45|Val40=45|Val50=45
+[Table8]
+SchemaName=
+TableName=comsuplink
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|CompID0=64|SuppID0=61|OrderCode0=110|Price0=47|CurrID0=56|Note0=48
+[Table9]
+SchemaName=
+TableName=curr
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Name0=104|Symbol0=60|Code0=50
+[Table10]
+SchemaName=
+TableName=customerorder
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Number0=64|Data0=47|DeliveryData0=87|CustomerID0=83|State0=49|Note0=48|Contract0=67
+[Table11]
+SchemaName=
+TableName=customerorderpos
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|OrderID0=64|ProductID0=74|Qty0=40|Price0=47
+[Table12]
+SchemaName=
+TableName=doc
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Kind0=46|Data0=47|DocN0=51|Provider0=65|Product0=63|Note0=48|Batch0=51|OrderID0=64|ReleasedID0=80|ReceivedID0=79|ProdOrderID0=88|Invoice0=59
+[Table13]
+SchemaName=
+TableName=equipment
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|RefEqID0=64|Model0=56|Inv0=38|PersonID0=69|WorkplaceID0=89
+[Table14]
+SchemaName=
+TableName=goods
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|StoreID0=61|ProductID0=74|Qty0=40
+[Table15]
+SchemaName=
+TableName=groups
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Parent0=56|Name0=182|Description0=82|FullName0=134
+[Table16]
+SchemaName=
+TableName=info
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Version0=62|Login0=52|Mode0=53|CurrID0=56|Settings0=2500
+[Table17]
+SchemaName=
+TableName=kit
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Name0=52|Description0=82|Data0=47|ClientID0=64|State0=49
+[Table18]
+SchemaName=
+TableName=kits
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Kit0=36|Product0=63|Num0=47
+[Table19]
+SchemaName=
+TableName=linkorder
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|SuppOrderID0=91|CustOrderID0=87
+[Table20]
+SchemaName=
+TableName=logproduct
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Data0=47|ProductID0=74|Qty0=40|PersonID0=69|Note0=48
+[Table21]
+SchemaName=
+TableName=logshipment
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Data0=47|ProductID0=74|Qty0=40|OrderID0=64
+[Table22]
+SchemaName=
+TableName=manpro
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|ManID0=57|ProID0=51
+[Table23]
+SchemaName=
+TableName=manufact
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Name0=69|FullName0=187|Site0=167|Note0=148
+[Table24]
+SchemaName=
+TableName=npar
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Name0=94|Symbol0=60|UnitID0=56
+[Table25]
+SchemaName=
+TableName=operation
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Code0=50|Name0=85
+[Table26]
+SchemaName=
+TableName=orderpos
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|OrderID0=64|CompID0=64|Qty0=40|Price0=47
+[Table27]
+SchemaName=
+TableName=orders
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Data0=62|DataD0=62|Num0=47|Provider0=65|State0=49|Note0=48|InvoiceNum0=83|InvoicePath0=82|CurrID0=56|Tax0=40|BatchID0=62|Contract0=67
+[Table28]
+SchemaName=
+TableName=payment
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Name0=52|CostItem0=68|Period0=56|Data0=47|CurrID0=56|Amount0=64
+[Table29]
+SchemaName=
+TableName=payorder
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Number0=64|Data0=47|Amount0=64|Note0=48|OrderID0=64
+[Table30]
+SchemaName=
+TableName=person
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|LastName0=72|FirstName0=74|SecondName0=90|Position0=65
+[Table31]
+SchemaName=
+TableName=product
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Parent0=56|Name0=52|Description0=82|PlateX0=54|PlateY0=53|Photo0=54|Plan0=45|Project0=58|Height0=58|Annex0=55|Qty0=40|Price0=47|Duration0=69|AssemblyTime0=94|Weight0=61|Note0=48
+[Table32]
+SchemaName=
+TableName=productstruct
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|ParentID0=67|ProductID0=74|Qty0=40
+[Table33]
+SchemaName=
+TableName=providers
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Name0=106|FullName0=151|City0=99|Address0=264|Site0=132|Login0=52|Password0=72|Summa0=60|INN0=42|Bank0=48|Account0=65|KPP0=41|VAT0=43|Type0=47|Email0=50|Phone0=56|Note0=48
+[Table34]
+SchemaName=
+TableName=rec
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Doc0=43|Comp0=53|Num0=47|Price0=107|Store0=50|DT0=107|Event0=51|UserID0=57|CurrID0=56|TaxRate0=63|UnitID0=56
+[Table35]
+SchemaName=
+TableName=refequipment
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Code0=50|Name0=148
+[Table36]
+SchemaName=
+TableName=reserve
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Data0=47|Num0=47|DataEnd0=67|State0=49|Note0=48|OrderID0=64
+[Table37]
+SchemaName=
+TableName=respos
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|ResID0=52|StockID0=62|Qty0=40
+[Table38]
+SchemaName=
+TableName=rules
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Rule0=46|Position0=65|Attribute0=69|Prefix0=51|Suffix0=52
+[Table39]
+SchemaName=
+TableName=sn
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Data0=47|Num0=47|ProductID0=74|PersonID0=69|CustomerID0=83|Note0=48
+[Table40]
+SchemaName=
+TableName=spar
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Name0=87|P0ID0=46|P1ID0=46|P2ID0=46|P3ID0=46|P4ID0=46|P5ID0=46
+[Table41]
+SchemaName=
+TableName=status
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Name0=52
+[Table42]
+SchemaName=
+TableName=stock
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Store0=50|Comp0=53|Num0=47|Price0=107|Data0=47
+[Table43]
+SchemaName=
+TableName=store
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Parent0=56|Name0=59|Description0=82|Block0=50|Volume0=62|Full0=42|FullName0=71
+[Table44]
+SchemaName=
+TableName=symbol
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Name0=84|Symbol0=60|Photo0=54|LibraryPath0=253|LibraryRef0=74
+[Table45]
+SchemaName=
+TableName=task
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Data0=62|DataEnd0=67|Name0=113|Duration0=69|Topic0=51|Priority0=59|Note0=48|State0=49|PersonID0=69
+[Table46]
+SchemaName=
+TableName=techcard
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|ProductID0=74|Position0=65|OperationID0=87|RefEqID0=64|Duration0=69|Content0=65|Path0=46
+[Table47]
+SchemaName=
+TableName=unit
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Name0=93|Symbol0=60
+[Table48]
+SchemaName=
+TableName=unitkoef
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|BaseUnitID0=79|Koef0=46|AltUnitID0=70
+[Table49]
+SchemaName=
+TableName=userlog
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|DT0=37|UserID0=57|Action0=56|CompID0=64|Note0=48
+[Table50]
+SchemaName=
+TableName=users
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Name0=52|Password0=72|Grants0=57
+[Table51]
+SchemaName=
+TableName=v_cad
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=PartNumber0=275|PartType0=134|Description0=561|Value0=52|SchematicPart0=94|Footprint0=95|Manufacturer0=93|DataSheet0=885|Supplier0=66|Store0=50|Quantity0=67|Reserve0=62|Cost0=107|Status0=55|Property10=72|Property20=72|Property30=72|Property40=72
+[Table52]
+SchemaName=
+TableName=workplaces
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Name0=52|PersonID0=69
 [FieldMap1]
-Options=FieldName=cables and wire.Part Number|TableNameOnly=cables and wire|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=altium.PartNumber|TableNameOnly=altium|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=cables and wire.Description|TableNameOnly=cables and wire|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=altium.Description|TableNameOnly=altium|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
-Options=FieldName=cables and wire.Library Path|TableNameOnly=cables and wire|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=altium.LibraryRef|TableNameOnly=altium|FieldNameOnly=LibraryRef|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=cables and wire.Library Ref|TableNameOnly=cables and wire|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=altium.LibraryPath|TableNameOnly=altium|FieldNameOnly=LibraryPath|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
-Options=FieldName=cables and wire.Footprint Path|TableNameOnly=cables and wire|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=altium.FootPrintRef|TableNameOnly=altium|FieldNameOnly=FootPrintRef|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=cables and wire.Footprint Ref|TableNameOnly=cables and wire|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=altium.FootPrintPath|TableNameOnly=altium|FieldNameOnly=FootPrintPath|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap7]
-Options=FieldName=cables and wire.Manufacturer|TableNameOnly=cables and wire|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=body.Description|TableNameOnly=body|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap8]
-Options=FieldName=cables and wire.Supplier|TableNameOnly=cables and wire|FieldNameOnly=Supplier|FieldType=1|ParameterName=Supplier|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=component.Description|TableNameOnly=component|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap9]
-Options=FieldName=cables and wire.Supplier Part Number|TableNameOnly=cables and wire|FieldNameOnly=Supplier Part Number|FieldType=1|ParameterName=Supplier Part Number|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=groups.Description|TableNameOnly=groups|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap10]
-Options=FieldName=cables and wire.Value0|TableNameOnly=cables and wire|FieldNameOnly=Value0|FieldType=1|ParameterName=Value0|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=kit.Description|TableNameOnly=kit|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap11]
-Options=FieldName=cables and wire.Value1|TableNameOnly=cables and wire|FieldNameOnly=Value1|FieldType=1|ParameterName=Value1|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=product.Description|TableNameOnly=product|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap12]
-Options=FieldName=cables and wire.Value2|TableNameOnly=cables and wire|FieldNameOnly=Value2|FieldType=1|ParameterName=Value2|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=store.Description|TableNameOnly=store|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap13]
-Options=FieldName=cables and wire.Value3|TableNameOnly=cables and wire|FieldNameOnly=Value3|FieldType=1|ParameterName=Value3|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=v_cad.PartNumber|TableNameOnly=v_cad|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap14]
-Options=FieldName=cables and wire.Type|TableNameOnly=cables and wire|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap15]
-Options=FieldName=cables and wire.Technology|TableNameOnly=cables and wire|FieldNameOnly=Technology|FieldType=1|ParameterName=Technology|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap16]
-Options=FieldName=cables and wire.Package|TableNameOnly=cables and wire|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap17]
-Options=FieldName=cables and wire.Mount Type|TableNameOnly=cables and wire|FieldNameOnly=Mount Type|FieldType=1|ParameterName=Mount Type|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap18]
-Options=FieldName=cables and wire.Datasheet link|TableNameOnly=cables and wire|FieldNameOnly=Datasheet link|FieldType=1|ParameterName=Datasheet link|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap19]
-Options=FieldName=circuit protection.Part Number|TableNameOnly=circuit protection|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap20]
-Options=FieldName=circuit protection.Description|TableNameOnly=circuit protection|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap21]
-Options=FieldName=circuit protection.Library Path|TableNameOnly=circuit protection|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap22]
-Options=FieldName=circuit protection.Library Ref|TableNameOnly=circuit protection|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap23]
-Options=FieldName=circuit protection.Footprint Path|TableNameOnly=circuit protection|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap24]
-Options=FieldName=circuit protection.Footprint Ref|TableNameOnly=circuit protection|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap25]
-Options=FieldName=connectors.Part Number|TableNameOnly=connectors|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap26]
-Options=FieldName=connectors.Description|TableNameOnly=connectors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap27]
-Options=FieldName=connectors.Library Path|TableNameOnly=connectors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap28]
-Options=FieldName=connectors.Library Ref|TableNameOnly=connectors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap29]
-Options=FieldName=connectors.Footprint Path|TableNameOnly=connectors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap30]
-Options=FieldName=connectors.Footprint Ref|TableNameOnly=connectors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap31]
-Options=FieldName=discrete semiconductors.Part Number|TableNameOnly=discrete semiconductors|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap32]
-Options=FieldName=discrete semiconductors.Description|TableNameOnly=discrete semiconductors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap33]
-Options=FieldName=discrete semiconductors.Library Path|TableNameOnly=discrete semiconductors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap34]
-Options=FieldName=discrete semiconductors.Library Ref|TableNameOnly=discrete semiconductors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap35]
-Options=FieldName=discrete semiconductors.Footprint Path|TableNameOnly=discrete semiconductors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap36]
-Options=FieldName=discrete semiconductors.Footprint Ref|TableNameOnly=discrete semiconductors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap37]
-Options=FieldName=electromechanical.Part Number|TableNameOnly=electromechanical|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap38]
-Options=FieldName=electromechanical.Description|TableNameOnly=electromechanical|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap39]
-Options=FieldName=electromechanical.Library Path|TableNameOnly=electromechanical|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap40]
-Options=FieldName=electromechanical.Library Ref|TableNameOnly=electromechanical|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap41]
-Options=FieldName=electromechanical.Footprint Path|TableNameOnly=electromechanical|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap42]
-Options=FieldName=electromechanical.Footprint Ref|TableNameOnly=electromechanical|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap43]
-Options=FieldName=integrated circuits (ics).Part Number|TableNameOnly=integrated circuits (ics)|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap44]
-Options=FieldName=integrated circuits (ics).Description|TableNameOnly=integrated circuits (ics)|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap45]
-Options=FieldName=integrated circuits (ics).Library Path|TableNameOnly=integrated circuits (ics)|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap46]
-Options=FieldName=integrated circuits (ics).Library Ref|TableNameOnly=integrated circuits (ics)|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap47]
-Options=FieldName=integrated circuits (ics).Footprint Path|TableNameOnly=integrated circuits (ics)|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap48]
-Options=FieldName=integrated circuits (ics).Footprint Ref|TableNameOnly=integrated circuits (ics)|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap49]
-Options=FieldName=optoelectronics.Part Number|TableNameOnly=optoelectronics|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap50]
-Options=FieldName=optoelectronics.Description|TableNameOnly=optoelectronics|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap51]
-Options=FieldName=optoelectronics.Library Path|TableNameOnly=optoelectronics|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap52]
-Options=FieldName=optoelectronics.Library Ref|TableNameOnly=optoelectronics|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap53]
-Options=FieldName=optoelectronics.Footprint Path|TableNameOnly=optoelectronics|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap54]
-Options=FieldName=optoelectronics.Footprint Ref|TableNameOnly=optoelectronics|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap55]
-Options=FieldName=passive components.Part Number|TableNameOnly=passive components|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap56]
-Options=FieldName=passive components.Description|TableNameOnly=passive components|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap57]
-Options=FieldName=passive components.Library Path|TableNameOnly=passive components|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap58]
-Options=FieldName=passive components.Library Ref|TableNameOnly=passive components|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap59]
-Options=FieldName=passive components.Footprint Path|TableNameOnly=passive components|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap60]
-Options=FieldName=passive components.Footprint Ref|TableNameOnly=passive components|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap61]
-Options=FieldName=power products.Part Number|TableNameOnly=power products|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap62]
-Options=FieldName=power products.Description|TableNameOnly=power products|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap63]
-Options=FieldName=power products.Library Path|TableNameOnly=power products|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap64]
-Options=FieldName=power products.Library Ref|TableNameOnly=power products|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap65]
-Options=FieldName=power products.Footprint Path|TableNameOnly=power products|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap66]
-Options=FieldName=power products.Footprint Ref|TableNameOnly=power products|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=v_cad.Description|TableNameOnly=v_cad|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
