@@ -36,8 +36,8 @@ Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
-BrowserOrder_Grouping=Parent0=True|PartType0=True
-BrowserOrder_Visible=PartNumber0=137|Description0=561|Manufacturer0=93|DataSheet0=885|Supplier0=66|OrderCode0=110|InStock0=61|Value0=52|Property10=72|Property20=72|Property30=72|Property40=72|LibraryRef0=74|LibraryPath0=253|FootPrintRef0=95|FootPrintPath0=296
+BrowserOrder_Grouping=
+BrowserOrder_Visible=PartNumber0=275|PartType0=182|Description0=561|Manufacturer0=93|DataSheet0=885|Supplier0=66|OrderCode0=110|InStock0=61|Value0=52|Property10=72|Property20=72|Property30=72|Property40=72|LibraryRef0=74|LibraryPath0=253|FootPrintRef0=95|FootPrintPath0=296|Parent0=134
 [Table3]
 SchemaName=
 TableName=batch
