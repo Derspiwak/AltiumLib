@@ -1245,6 +1245,23 @@ GenerateClassCluster=0
 DocumentUniqueId=OUYKKSNE
 
 [Document72]
+DocumentPath=footprints\RMOTHT(d5l12)PCM15.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KLXGKHDA
+
+[Document73]
 DocumentPath=footprints\J1206(3216).PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1261,7 +1278,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OIEGRAYC
 
-[Document73]
+[Document74]
 DocumentPath=footprints\FTR5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1278,7 +1295,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MFOPKKWU
 
-[Document74]
+[Document75]
 DocumentPath=footprints\T70052K.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1295,7 +1312,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FBLQCYYP
 
-[Document75]
+[Document76]
 DocumentPath=footprints\LDR331.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1311,6 +1328,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PQSHFTAB
+
+[Document77]
+DocumentPath=footprints\LSS11VL.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EIQCFFIP
 
 [OutputGroup1]
 Name=Netlist Outputs
