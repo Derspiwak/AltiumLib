@@ -38,7 +38,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=symbols\Discrete\Zener.Schlib
+DocumentPath=symbols\Discrete\Diodes.Schlib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -426,7 +426,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=MYKDHCWB
 
 [Document24]
 DocumentPath=symbols\IC\TPS3780D.Schlib
@@ -531,6 +531,23 @@ GenerateClassCluster=0
 DocumentUniqueId=OEBVBAEN
 
 [Document30]
+DocumentPath=symbols\IC\TPS73801.Schlib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XQYEVBLC
+
+[Document31]
 DocumentPath=footprints\SOIC127P600X170-8N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -547,7 +564,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DCKXIHNS
 
-[Document31]
+[Document32]
 DocumentPath=footprints\SOIC127P790X190-14L.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -564,7 +581,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KPGNTTRQ
 
-[Document32]
+[Document33]
 DocumentPath=footprints\SOIC127P790X190-14N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -581,7 +598,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KWQGITXU
 
-[Document33]
+[Document34]
 DocumentPath=footprints\SOIC127P1040X265_HS-21N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -598,7 +615,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HKKJWLEW
 
-[Document34]
+[Document35]
 DocumentPath=footprints\SOT230P700X180-4N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -615,7 +632,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UQMICNCN
 
-[Document35]
+[Document36]
 DocumentPath=footprints\SOT89150P410X160-3N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -632,7 +649,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FJMSOESV
 
-[Document36]
+[Document37]
 DocumentPath=footprints\TO220AB.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -649,7 +666,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NEIPQXLS
 
-[Document37]
+[Document38]
 DocumentPath=footprints\SOD123.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -666,7 +683,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CBUHHSVD
 
-[Document38]
+[Document39]
 DocumentPath=footprints\SOT95P245X145-3N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -683,7 +700,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=STXFFCND
 
-[Document39]
+[Document40]
 DocumentPath=footprints\SOT95P245X145-5N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -700,7 +717,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UAKPWBGY
 
-[Document40]
+[Document41]
 DocumentPath=footprints\SOT95P245X145-6N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -717,7 +734,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BIWHSFBU
 
-[Document41]
+[Document42]
 DocumentPath=footprints\PQFN65P500X500X100_HS-21N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
