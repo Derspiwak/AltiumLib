@@ -123,7 +123,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YSFDILAN
 
 [Document6]
-DocumentPath=symbols\IC\LogicIC.Schlib
+DocumentPath=symbols\LogicIC.Schlib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
