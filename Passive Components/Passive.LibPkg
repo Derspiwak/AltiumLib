@@ -191,7 +191,7 @@ GenerateClassCluster=0
 DocumentUniqueId=LGUUJYWB
 
 [Document10]
-DocumentPath=footprints\C(18.0x9.0h17.5)PCM15.PcbLib
+DocumentPath=footprints\CAP.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -208,176 +208,6 @@ GenerateClassCluster=0
 DocumentUniqueId=EWJVISBU
 
 [Document11]
-DocumentPath=footprints\C0201(0603)x0.3.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PQSHFTAB
-
-[Document12]
-DocumentPath=footprints\C0402(1005)x0.5.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QGAAEJGM
-
-[Document13]
-DocumentPath=footprints\C0603(1608)x0.8.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=EBHFCDTA
-
-[Document14]
-DocumentPath=footprints\C0805(2012)x0.8.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=UBUSQYJK
-
-[Document15]
-DocumentPath=footprints\C0805(2012)x0.65.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OASIUHPC
-
-[Document16]
-DocumentPath=footprints\C0805(2012)x0.85.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QPEUNGJK
-
-[Document17]
-DocumentPath=footprints\C0805(2012)x1.25.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HFWJYBDB
-
-[Document18]
-DocumentPath=footprints\C1206(3216)x0.85.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FMYDYBHE
-
-[Document19]
-DocumentPath=footprints\C1206(3216)x1.6.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KGERXYWM
-
-[Document20]
-DocumentPath=footprints\C1206(3216)x1.25.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HVISPERP
-
-[Document21]
 DocumentPath=footprints\C1210(3225)x1.6.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -394,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NTKPXRUR
 
-[Document22]
+[Document12]
 DocumentPath=footprints\C1210(3225)x1.25.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -411,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JPQNSFYP
 
-[Document23]
+[Document13]
 DocumentPath=footprints\C1210(3225)x2.5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -428,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QLYXYQXU
 
-[Document24]
+[Document14]
 DocumentPath=footprints\C1210(3225)x2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -445,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RHCSUHPW
 
-[Document25]
+[Document15]
 DocumentPath=footprints\C1808(4520)x2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -462,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JADLXHIY
 
-[Document26]
+[Document16]
 DocumentPath=footprints\C1812(4532)x1.6.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -479,7 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GVCGVSWO
 
-[Document27]
+[Document17]
 DocumentPath=footprints\C1812(4532)x1.25.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -496,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KDTYYINY
 
-[Document28]
+[Document18]
 DocumentPath=footprints\C1812(4532)x2.5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -513,7 +343,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RFPYHPAA
 
-[Document29]
+[Document19]
 DocumentPath=footprints\C1812(4532)x2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -530,7 +360,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VPLNHWWW
 
-[Document30]
+[Document20]
 DocumentPath=footprints\C1825(4564)x1.27.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -547,7 +377,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TUOMSVTM
 
-[Document31]
+[Document21]
 DocumentPath=footprints\C1825(4564)x2.29.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -564,7 +394,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TEVICWPD
 
-[Document32]
+[Document22]
 DocumentPath=footprints\C1825(4564)x2.54.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -581,7 +411,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YWMDEQYE
 
-[Document33]
+[Document23]
 DocumentPath=footprints\C2220(5750)x1.6.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -598,7 +428,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UFIITJTB
 
-[Document34]
+[Document24]
 DocumentPath=footprints\C2220(5750)x2.5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -615,7 +445,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TFJYOTKU
 
-[Document35]
+[Document25]
 DocumentPath=footprints\C2220(5750)x2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -632,7 +462,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YKDVFUHV
 
-[Document36]
+[Document26]
 DocumentPath=footprints\CELTHT(D10h12.5)PCM5.pcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -649,7 +479,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AYGHFMBH
 
-[Document37]
+[Document27]
 DocumentPath=footprints\CELTHT(D10h16)PCM5.pcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -666,7 +496,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AYGHFMBH
 
-[Document38]
+[Document28]
 DocumentPath=footprints\CELTHT(D12.5h20)PCM5.pcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -683,7 +513,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJIGUNYI
 
-[Document39]
+[Document29]
 DocumentPath=footprints\CELTHT(D18h20)PCM7.5.pcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -700,7 +530,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PQDUFCCA
 
-[Document40]
+[Document30]
 DocumentPath=footprints\CELSMT(D6.3h5.8)Dsize.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -717,7 +547,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PYSKMMHS
 
-[Document41]
+[Document31]
 DocumentPath=footprints\ELSMTD4h5.4.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -734,7 +564,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ITIEICJT
 
-[Document42]
+[Document32]
 DocumentPath=footprints\ELSMTD5h5.4.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -751,7 +581,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VONUVDTR
 
-[Document43]
+[Document33]
 DocumentPath=footprints\ELSMTD6.3h7.7.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -768,7 +598,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YICJLXIM
 
-[Document44]
+[Document34]
 DocumentPath=footprints\ELSMTD8h6.5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -785,7 +615,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MPGOYCBH
 
-[Document45]
+[Document35]
 DocumentPath=footprints\ELSMTD8h10.5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -802,7 +632,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DNKTKXQE
 
-[Document46]
+[Document36]
 DocumentPath=footprints\ELSMTD10h10.5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -819,7 +649,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VERNPRDE
 
-[Document47]
+[Document37]
 DocumentPath=footprints\ELSMTD10h13.5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -836,7 +666,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FUYFPJGR
 
-[Document48]
+[Document38]
 DocumentPath=footprints\EL-TCaseA1206(3216-18).PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -853,7 +683,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DOJUBKRI
 
-[Document49]
+[Document39]
 DocumentPath=footprints\EL-TCaseB1210(3528-21).PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -870,7 +700,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FKTQEMOL
 
-[Document50]
+[Document40]
 DocumentPath=footprints\EL-TCaseC2312(6032-28).PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -887,7 +717,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EQCYUSIY
 
-[Document51]
+[Document41]
 DocumentPath=footprints\EL-TCaseD2917(7343-31).PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -904,7 +734,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JRYKFYNE
 
-[Document52]
+[Document42]
 DocumentPath=footprints\EL-TCaseE2917(7353-43).PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -921,7 +751,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CDJCDPQK
 
-[Document53]
+[Document43]
 DocumentPath=footprints\EL-TCaseV2917(7353-38).PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -938,7 +768,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KCDSEMEL
 
-[Document54]
+[Document44]
 DocumentPath=footprints\J1206(3216).PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -955,7 +785,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OIEGRAYC
 
-[Document55]
+[Document45]
 DocumentPath=footprints\FTR5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -972,7 +802,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MFOPKKWU
 
-[Document56]
+[Document46]
 DocumentPath=footprints\T70052K.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -989,7 +819,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FBLQCYYP
 
-[Document57]
+[Document47]
 DocumentPath=footprints\IND.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1006,7 +836,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PQSHFTAB
 
-[Document58]
+[Document48]
 DocumentPath=footprints\LSS11VL.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1023,7 +853,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EIQCFFIP
 
-[Document59]
+[Document49]
 DocumentPath=footprints\RES.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
